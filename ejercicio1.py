@@ -2,24 +2,16 @@
 
 import sys
 
-numeros=[]
-
 def insertar_numero():
     return input("Introduzca un número: ")
 
-def añadir_a_lista():
-    return numeros.append(insertar_numero())
+primero=insertar_numero()
+segundo=insertar_numero()
+tercero=insertar_numero()
 
-primero=añadir_a_lista()
-segundo=añadir_a_lista()
-tercero=añadir_a_lista()
-
-print(numeros)
-
-if int(numeros[0])==0:
+if int(primero)==0:
     print("Error, el primer número no puede ser 0")
+elif primero<segundo<tercero:
+    print("Están en orden ascendente")
 else:
-    if numeros[0]<numeros[1]<numeros[2]:
-        print("Están en orden ascendente")
-    else:
-        print("No están en orden ascendente")
+    print("No están en orden ascendente")
