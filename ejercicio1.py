@@ -1,9 +1,6 @@
 #Ejercicio 1
 
-import sys
-
-def insertar_numero():
-    return input("Introduzca un número: ")
+from funciones import insertar_numero
 
 primero=insertar_numero()
 segundo=insertar_numero()

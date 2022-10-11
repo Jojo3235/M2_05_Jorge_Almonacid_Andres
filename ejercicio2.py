@@ -1,18 +1,12 @@
 #Ejercicio 2
 
-import sys
+from funciones import añadir_a_lista
 
 numeros=[]
 
-def insertar_numero():
-    return input("Introduzca un número: ")
-
-def añadir_a_lista():
-    return numeros.append(insertar_numero())
-
-primero=añadir_a_lista()
-segundo=añadir_a_lista()
-tercero=añadir_a_lista()
+primero=añadir_a_lista(numeros)
+segundo=añadir_a_lista(numeros)
+tercero=añadir_a_lista(numeros)
 
 print(numeros)
 
