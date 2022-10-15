@@ -2,7 +2,7 @@
 
 from funciones import añadir_a_lista
 
-numeros=[]
+numeros=list()
 
 primero=añadir_a_lista(numeros)
 segundo=añadir_a_lista(numeros)
